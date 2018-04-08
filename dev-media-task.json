@@ -1,0 +1,19 @@
+{
+    "family": "dev-media-service-task",
+    "containerDefinitions": [
+        {
+            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "name": "dev-media-service-task",
+            "cpu": 256,
+            "memoryReservation": 512,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort":80,
+                    "hostPort": 0
+                }
+            ]
+        }
+    ]
+}
+
