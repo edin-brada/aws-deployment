@@ -1,5 +1,5 @@
 {
-    "family": "dev-media-service-task",
+    "family": "dev-media-service",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
